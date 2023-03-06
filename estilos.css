@@ -14,15 +14,16 @@ body {
 }
 
 .contenedor {
+    width: 100%;
     display: flex;
-    justify-content: left ;
+    justify-content: start;
     align-items: center;
 }
 
 .titulo {
     border-radius: 20px;
     display: flex;
-    width: 70%;
+    width: 75%;
     min-height: 100px;
     float: left;
     background-color: white;
@@ -40,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 19%;
+    width: 25%;
     min-height: 100%;
     border-radius: 100px;
 }
@@ -49,7 +50,9 @@ body {
     width: 100px;
     background-color: white;
     border-radius: 50%;
-    background-image: url("");
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cuerpo {
@@ -66,16 +69,30 @@ body {
 
 .juego {
     border: 3px solid #ffffff;
-   padding: 1rem;
+
    font-family: arial;
    height: 100px;
    width: 60%;
    text-align: center;
    background: white;
    display: flex;
+   position: relative;
    justify-content: center;
-   align-items: center;
    font-size: 2rem;
    margin-bottom: 64px;
    border-radius: 20px;
+   align-self: center;  
+}
+
+.nombre {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.701);
+    color: white;
+    font-family: 'roboto';
+    font-weight: 300;
+    left: 0;
+    border-radius: 0px 0px 20px 20px;
 }

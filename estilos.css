@@ -1,0 +1,81 @@
+body {
+    background-color: #2f4f4f;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+
+.encabezado {
+    min-height: 100px;
+    max-height: 150px;
+    border-radius: 4px;
+    margin-bottom: 64px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: left ;
+    align-items: center;
+}
+
+.titulo {
+    border-radius: 20px;
+    display: flex;
+    width: 70%;
+    min-height: 100px;
+    float: left;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    font-size: 32px;
+}
+
+
+
+.iconoLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+    min-height: 100%;
+    border-radius: 100px;
+}
+.icono {
+    min-height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url("");
+}
+
+.cuerpo {
+    background-color: transparent;
+    height: 100vh;
+}
+
+.tablaJuegos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+
+.juego {
+    border: 3px solid #ffffff;
+   padding: 1rem;
+   font-family: arial;
+   height: 100px;
+   width: 60%;
+   text-align: center;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   margin-bottom: 64px;
+   border-radius: 20px;
+}
